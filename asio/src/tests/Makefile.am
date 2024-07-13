@@ -128,6 +128,7 @@ check_PROGRAMS = \
 	unit/posix/basic_stream_descriptor \
 	unit/posix/descriptor \
 	unit/posix/descriptor_base \
+	unit/posix/file_socket \
 	unit/posix/stream_descriptor \
 	unit/post \
 	unit/prepend \
@@ -343,6 +344,7 @@ TESTS = \
 	unit/posix/basic_stream_descriptor\
 	unit/posix/descriptor\
 	unit/posix/descriptor_base \
+	unit/posix/file_socket \
 	unit/posix/stream_descriptor \
 	unit/post \
 	unit/prepend \
@@ -620,6 +622,7 @@ unit_windows_stream_handle_SOURCES = unit/windows/stream_handle.cpp
 unit_writable_pipe_SOURCES = unit/writable_pipe.cpp
 unit_write_SOURCES = unit/write.cpp
 unit_write_at_SOURCES = unit/write_at.cpp
+unit_posix_file_socket_test_SOURCES = unit/posix_file_socket_test.cpp
 
 if HAVE_CXX11
 unit_experimental_basic_channel_SOURCES = unit/experimental/basic_channel.cpp
